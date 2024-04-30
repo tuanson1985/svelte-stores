@@ -1,10 +1,15 @@
 <script>
-	export let name;
+	import Display from "./components/Display.svelte";
+	import Increment from "./components/Increment.svelte";
+	import Decrement from "./components/Decrement.svelte";
+	import Reset from "./components/Reset.svelte";
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<Display />
+	<Increment />
+	<Decrement />
+	<Reset />
 </main>
 
 <style>
